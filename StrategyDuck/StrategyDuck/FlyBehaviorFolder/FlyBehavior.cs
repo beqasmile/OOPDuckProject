@@ -15,7 +15,7 @@ namespace StrategyDuck.FlyBehaviorFolder
 
         public virtual void Fly()
         {
-
+           
         }
     }
 }

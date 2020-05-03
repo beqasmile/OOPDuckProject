@@ -16,6 +16,7 @@ namespace StrategyDuck.FlyBehaviorFolder
         public override void Fly()
         {
             base.Fly();
+            Console.WriteLine("Behavior No Fly ");
         }
     }
 }
