@@ -4,13 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyDuck
+namespace StrategyDuck.FlyBehaviorFolder
 {
     public class FlyBehavior
     {
+        public  FlyBehavior()
+        { 
+        }
+
+
         public virtual void Fly()
         {
-            Console.WriteLine("Simple Fly");
+
         }
     }
 }

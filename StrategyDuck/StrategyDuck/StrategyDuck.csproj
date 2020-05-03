@@ -43,14 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Duck\DecoyDuck.cs" />
     <Compile Include="Duck\Duck.cs" />
-    <Compile Include="FlyBehavior\FlyBehavior.cs" />
+    <Compile Include="Duck\MallardDuck.cs" />
+    <Compile Include="Duck\RedheadDuck.cs" />
+    <Compile Include="Duck\RubberDuck.cs" />
+    <Compile Include="FlyBehaviorFolder\FlyBehavior.cs" />
+    <Compile Include="FlyBehaviorFolder\FlyNoWay.cs" />
+    <Compile Include="FlyBehaviorFolder\FlyWithWings.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuackBehavior\QuackBehavior.cs" />
+    <Compile Include="QuackBehaviorFolder\MuteDuck.cs" />
+    <Compile Include="QuackBehaviorFolder\QuackBehavior.cs" />
+    <Compile Include="QuackBehaviorFolder\Squeack.cs" />
+    <Compile Include="QuackBehaviorFolder\Squeck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DP01-Strategy.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
