@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyDuck.Duck
+namespace StrategyDuck.DuckFolder
 {
     public class MallardDuck: Duck
     {
@@ -23,6 +23,12 @@ namespace StrategyDuck.Duck
         {
             base.Display();
             Console.WriteLine("Mallard Display");
+        }
+
+        public override void PrintAllData()
+        {
+            Console.WriteLine("Out Mallard Duck "  );
+            Display();
         }
     }
 }

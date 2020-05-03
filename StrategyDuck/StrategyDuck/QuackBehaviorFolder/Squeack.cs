@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StrategyDuck.QuackBehaviorFolder
 {
-    public class Squeack :QuackBehavior
+    public sealed class Squeack :QuackBehavior
     {
         public Squeack() : base()
         {

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyDuck.Duck
+namespace StrategyDuck.DuckFolder
 {
     public class RedheadDuck: Duck
     {
@@ -24,6 +24,11 @@ namespace StrategyDuck.Duck
             base.Display();
             Console.WriteLine("Redhead Display");
         }
-    
+
+        public override void PrintAllData()
+        {
+            Console.WriteLine("Print Red had data");
+            Display();
+        }
     }
 }

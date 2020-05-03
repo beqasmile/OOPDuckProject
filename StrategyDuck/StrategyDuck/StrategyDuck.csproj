@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Duck\DecoyDuck.cs" />
-    <Compile Include="Duck\Duck.cs" />
-    <Compile Include="Duck\MallardDuck.cs" />
-    <Compile Include="Duck\RedheadDuck.cs" />
-    <Compile Include="Duck\RubberDuck.cs" />
+    <Compile Include="DuckFolder\DecoyDuck.cs" />
+    <Compile Include="DuckFolder\Duck.cs" />
+    <Compile Include="DuckFolder\MallardDuck.cs" />
+    <Compile Include="DuckFolder\RedheadDuck.cs" />
+    <Compile Include="DuckFolder\RubberDuck.cs" />
     <Compile Include="FlyBehaviorFolder\FlyBehavior.cs" />
     <Compile Include="FlyBehaviorFolder\FlyNoWay.cs" />
     <Compile Include="FlyBehaviorFolder\FlyWithWings.cs" />

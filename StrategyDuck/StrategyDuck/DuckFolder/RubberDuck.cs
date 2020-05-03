@@ -1,12 +1,13 @@
 ﻿using StrategyDuck.FlyBehaviorFolder;
 using StrategyDuck.QuackBehaviorFolder;
 using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyDuck.Duck
+namespace StrategyDuck.DuckFolder
 {
     public class RubberDuck:Duck
     {
@@ -23,6 +24,13 @@ namespace StrategyDuck.Duck
         {
             base.Display();
             Console.WriteLine("Rubber Display");
+        }
+
+        public override void PrintAllData()
+        {
+            base.Display();
+
+            Console.WriteLine("Print All Datea Rubber");
         }
     }
 }

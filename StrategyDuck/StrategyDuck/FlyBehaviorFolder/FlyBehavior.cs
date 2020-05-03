@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StrategyDuck.FlyBehaviorFolder
 {
-    public class FlyBehavior
+    public abstract class FlyBehavior
     {
         public  FlyBehavior()
         { 

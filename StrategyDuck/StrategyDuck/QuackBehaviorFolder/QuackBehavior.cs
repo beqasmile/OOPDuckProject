@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StrategyDuck.QuackBehaviorFolder
 {
-    public class QuackBehavior
+    public abstract class QuackBehavior
     {
         public QuackBehavior()
         {

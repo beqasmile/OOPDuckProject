@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyDuck.Duck
+namespace StrategyDuck.DuckFolder
 {
-    public class Duck
+    public abstract class Duck
     {
         private FlyBehavior flyBehavior;
         private QuackBehavior quackBehavior;
@@ -28,6 +28,7 @@ namespace StrategyDuck.Duck
             this.quackBehavior.Quack();
 
         }
+        public abstract void PrintAllData();
 
         public virtual void Swim()
         {

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyDuck.Duck
+namespace StrategyDuck.DuckFolder
 {
     public class DecoyDuck:Duck
     {
@@ -25,6 +25,12 @@ namespace StrategyDuck.Duck
         {
             base.Display();
             Console.WriteLine("Decoy Display");
+        }
+
+        public override void PrintAllData()
+        {
+            Console.WriteLine("Decoy");
+            Display();
         }
     }
 }
